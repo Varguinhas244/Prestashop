@@ -1,0 +1,212 @@
+@font-face {
+    font-family: fonte1;
+    src: url(font/american_captain/American\ Captain.ttf)
+}
+
+body {
+    background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700410823.jpg);
+
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    padding: 15px 20px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .7s ease;
+
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+button:hover{
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+button:hover a {
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.btn {
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.titulo1 {
+    color: #000000;
+
+    text-align: center;
+    font-family: fonte1;
+    font-size: 80px;
+}
+
+.imgh1 {
+    width: 65px;
+}
+
+.div1 {
+    background-color: #ffffff;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+    height: 230vh;
+
+    border-radius: 10px;
+
+}
+
+h2 {
+    text-align: justify;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+p {
+    text-align: justify;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.galeria {
+    display: flex;
+    height: 25rem;
+    gap: 1rem;
+    
+}
+
+.galeria>div {
+    flex: 1;
+    background-position: center;
+    background-size: cover;
+    transition: all .7s cubic-bezier(1, 1, 1, 1.1);
+    border-radius: 10px;
+}
+
+.galeria>div:hover {
+    flex: 4;
+}
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.footer1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+}
+
+.keven {
+    color: #000000;
+    font-size: 25px;
+}
+
+
+
+.img-email {
+    width: 20px;
+}
+
+.img-git {
+    width: 40px;
+}
+
+
+
+.logo-img {
+    width: 10%;
+    height: 5%;
+    margin-left: 30px;
+
+}
+
+.container {
+    display: flex;
+}
+
+.dark-mode {
+    background-image: url(https://3.bp.blogspot.com/-aSzSlW5ryIY/UfGi6P1Cs7I/AAAAAAAAErM/ErL8ImFcRHo/s1600/wallpapers_computacion_y_tecnologia_vol2_by_madboxpc_13.jpg);
+}
+
+.dark-mode h1 {
+    color: #ffffff;
+}
+
+.dark-mode .div1 {
+    background-color: #000000;
+}
+
+.dark-mode p {
+    color: #fff;
+}
+
+.dark-mode h2 {
+    color: #fff;
+}
+
+.dark-mode button {
+    background-color: #fff;
+    color: #000000;
+}
+
+.dark-mode .header2 {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.dark-mode .img-email {
+    background-color: #ffffff;
+}
+
+.dark-mode .img-git {
+    background-color: #ffffff;
+}
+
+.dark-mode a {
+    color: #ffffff;
+}
+
+.dark-mode .btn {
+    color: #000000;
+}
+
+.dark-mode button:hover {
+    color: #ffffff;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+}
+
+.dark-mode button:hover a {
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+}
